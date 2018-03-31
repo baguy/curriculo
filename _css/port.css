@@ -1,0 +1,20 @@
+/* 
+    Created on : 31/03/2018, 04:27:53
+    Author     : Baguy
+*/
+
+@charset "UTF-8";
+
+figure.foto-legenda {
+    display: block;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 70px;
+    border: 1px solid #4db6ac;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 0px;
+}
+h5{
+    color: #9c9c9c;    
+}

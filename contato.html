@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    
+    <head>
+        <title>Mayra Dantas Bueno</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="_css/estilo.css"/>
+        <link rel="stylesheet" type="text/css" href="_css/formulario.css"/>
+    </head>
+    
+    <body>
+        <div id="interface">
+        
+            <header id="cabecalho">
+                <hgroup>
+                    <h1>Mayra Dantas Bueno</h1>
+                    <h2>Design e Programação</h2>
+                </hgroup>               
+                    <nav id="menu">
+                        <ul>
+                            <li><a href="index.html">Sobre</a></li>
+                            <li><a href="portfolio.html">Portfolio</a></li>
+                            <li><a href="contato.html">Contato</a></li> 
+                        </ul>
+                    </nav>
+            </header>            
+            
+            <section id="corpo">
+                <form method="get" id="formContato" action="dados.php">
+                    <fieldset id="usuario">
+                        <legend>Identificação</legend>
+                        <p><label for="campoNome">Nome: </label><input type="text" name="tNome" id="campoNome" size="20" maxlength="30" placeholder="Nome completo" /></p>
+                        <p><label for="campoEmail">E-mail: </label><input type="text" name="tEmail" id="campoEmail" size="30" placeholder="Email válido"/></p>
+                        <fieldset id="Assunto">
+                            <legend>Assunto</legend>
+                            <input type="radio" name="tMotivo" id="campoDesign" value="Design"/><label for="campoDesign">Design</label>
+                            <input type="radio" name="tMotivo" id="campoProgramacao" value="Programacao"/><label for="campoProgramacao">Programação</label>
+                        </fieldset>
+                        </fieldset>
+                        <fieldset id="mensagem">
+                            <legend>Mensagem</legend>
+                            <p><label for="campoMsg">Mensagem: </label>
+                                <textarea name="tMsg" id="campoMsg" cols="30" rows="5" placeholder="Deixe aqui sua mensagem"></textarea></p>  
+                    </fieldset>
+                    <input type="image" name="tEnviar" height="46" width="127" src="_imagem/botao_enviar.png" alt="Botão enviar"/>
+                </form>
+            </section>
+        
+            <div id="divRodape">
+                <footer id="rodape">
+                    <p>Copyright &copy; 2018 — Mayra D Bueno</p>
+                </footer>
+            </div>
+            
+        </div>
+    </body>
+</html>
